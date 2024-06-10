@@ -1,0 +1,40 @@
+# Library Management System
+End Semester Project
+
+# Overview
+The Library Management System is a Java-based application designed to streamline library operations, including book management, user interactions, and borrowing processes. This README offers insights into the project's code structure, design principles, and implementation details.
+
+# Code Logic Overview
+The system consists of multiple classes and interfaces responsible for handling various aspects of library management:
+
+### Person:
+Abstract class representing individuals interacting with the system, facilitating user registration, login, and profile management.
+### Librarian and Borrower:
+Concrete subclasses of Person, distinguishing between librarians responsible for managing the library and borrowers borrowing books.
+### Book:
+Class representing a book with attributes such as title, author, availability status, and borrowing information. Includes methods for book management and search.
+### BorrowingRecord:
+Class representing a record of book borrowings, including borrower details, borrowed book information, and return dates.
+### LibraryManagementSystem:
+Main class coordinating library operations, user authentication, and book borrowing processes. Manages book catalog, user records, and borrowing records.
+
+# Approaches Used
+### Object-Oriented Design:
+The project adheres to object-oriented design principles, ensuring modular, encapsulated, and reusable code components.
+### Interface Segregation:
+Interfaces like UserOperations and BookManagement define specific sets of operations, promoting flexibility and decoupling of modules.
+### File Handling:
+Java's file handling functionalities are employed for storing and retrieving user, book, and borrowing data persistently.
+### User Authentication:
+User authentication is implemented by validating user credentials against stored user data, ensuring secure access to the system.
+
+# Technologies Used
+1. Java
+2. Java File I/O
+3. UML for system design visualization
+
+# Usage Instructions
+1. Clone the repository to your local machine.
+2. Compile the Java files using a Java compiler.
+3. Run the Main class to launch the Library Management System.
+4. Follow on-screen instructions to register as a librarian or borrower, manage books, search for books, and borrow/return books.
